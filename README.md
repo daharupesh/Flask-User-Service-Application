@@ -14,13 +14,13 @@ This is a simple Flask web application that allows users to register with their 
 
 ### Home Page
 
-![Home Page](Screanshoots/1.png)
-![Home Page](Screanshoots/2.png)
-![Home Page](Screanshoots/3.png)
+![Home Page](screenshots/1.png)
+![Home Page](screenshots/2.png)
+![Home Page](screenshots/3.png)
 
 ### Users Table Page
 
-![Users Table Page](Screanshoots/4.png)
+![Users Table Page](screenshots/4.png)
 
 
 ## Installation and Setup
