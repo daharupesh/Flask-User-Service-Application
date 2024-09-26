@@ -1,9 +1,3 @@
-To generate a comprehensive README file for your Flask project, I'll include the necessary sections such as project description, setup instructions, usage details, and screenshots. Additionally, I’ll provide instructions on where to add the screenshots of the home page and users table page.
-
-Here’s the structure for your `README.md` file:
-
----
-
 # Flask User Service Application
 
 This is a simple Flask web application that allows users to register with their names and emails. The application validates input, prevents duplicate emails, and stores the user data in a MySQL database. The app also displays a list of all registered users.
