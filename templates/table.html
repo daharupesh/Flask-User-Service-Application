@@ -1,0 +1,27 @@
+<div class="table-container">
+    <h2>User Information Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in users %}
+                <tr>
+                    <td>{{ user.id }}</td>
+                    <td>{{ user.name }}</td>
+                    <td>{{ user.email }}</td>
+                    <td>{{ user.timestamp }}</td>
+                </tr>
+            {% else %}
+                <tr>
+                    <td colspan="4" class="no-data">No users found</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
